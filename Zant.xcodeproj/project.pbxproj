@@ -6,33 +6,171 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7F422A072F6AE46200B7E458 /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F422A062F6AE46200B7E458 /* DeviceActivity.framework */; };
+		7F422A0F2F6AE46200B7E458 /* ZantDeviceActivityMonitor.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7F422A042F6AE46200B7E458 /* ZantDeviceActivityMonitor.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7F422A1B2F6AE47B00B7E458 /* ManagedSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F422A1A2F6AE47B00B7E458 /* ManagedSettings.framework */; };
+		7F422A1D2F6AE47B00B7E458 /* ManagedSettingsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F422A1C2F6AE47B00B7E458 /* ManagedSettingsUI.framework */; };
+		7F422A252F6AE47B00B7E458 /* ZantShieldConfiguration.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7F422A192F6AE47B00B7E458 /* ZantShieldConfiguration.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7F422A3B2F6AE50000B7E458 /* FamilyControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F422A3A2F6AE50000B7E458 /* FamilyControls.framework */; };
+		7F422A3C2F6AE50000B7E458 /* ManagedSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F422A1A2F6AE47B00B7E458 /* ManagedSettings.framework */; };
+		7FEFC9FC2F62EFC80012E2C5 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA1B0012F63000000000001 /* Lottie */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F422A0D2F6AE46200B7E458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F8D16B42F62CA26002FDAC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F422A032F6AE46200B7E458;
+			remoteInfo = ZantDeviceActivityMonitor;
+		};
+		7F422A232F6AE47B00B7E458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F8D16B42F62CA26002FDAC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F422A182F6AE47B00B7E458;
+			remoteInfo = ZantShieldConfiguration;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7F422A102F6AE46200B7E458 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7F422A0F2F6AE46200B7E458 /* ZantDeviceActivityMonitor.appex in Embed Foundation Extensions */,
+				7F422A252F6AE47B00B7E458 /* ZantShieldConfiguration.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7F422A042F6AE46200B7E458 /* ZantDeviceActivityMonitor.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ZantDeviceActivityMonitor.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F422A062F6AE46200B7E458 /* DeviceActivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceActivity.framework; path = System/Library/Frameworks/DeviceActivity.framework; sourceTree = SDKROOT; };
+		7F422A192F6AE47B00B7E458 /* ZantShieldConfiguration.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ZantShieldConfiguration.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F422A1A2F6AE47B00B7E458 /* ManagedSettings.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManagedSettings.framework; path = System/Library/Frameworks/ManagedSettings.framework; sourceTree = SDKROOT; };
+		7F422A1C2F6AE47B00B7E458 /* ManagedSettingsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManagedSettingsUI.framework; path = Library/Frameworks/ManagedSettingsUI.framework; sourceTree = DEVELOPER_DIR; };
+		7F422A3A2F6AE50000B7E458 /* FamilyControls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FamilyControls.framework; path = System/Library/Frameworks/FamilyControls.framework; sourceTree = SDKROOT; };
 		7F8D16BC2F62CA26002FDAC7 /* Zant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7F422A132F6AE46200B7E458 /* Exceptions for "ZantDeviceActivityMonitor" folder in "ZantDeviceActivityMonitor" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 7F422A032F6AE46200B7E458 /* ZantDeviceActivityMonitor */;
+		};
+		7F422A3D2F6AE50000B7E458 /* Exceptions for "Zant" folder in "ZantDeviceActivityMonitor" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Shared/SharedBlockingConstants.swift,
+				Shared/SharedBlockingModels.swift,
+				Shared/SharedBlockingStorage.swift,
+			);
+			target = 7F422A032F6AE46200B7E458 /* ZantDeviceActivityMonitor */;
+		};
+		7F422A3E2F6AE50000B7E458 /* Exceptions for "Zant" folder in "ZantShieldConfiguration" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Shared/SharedBlockingConstants.swift,
+				Shared/SharedBlockingModels.swift,
+				Shared/SharedBlockingStorage.swift,
+			);
+			target = 7F422A182F6AE47B00B7E458 /* ZantShieldConfiguration */;
+		};
+		7F422A3F2F6AE50000B7E458 /* Exceptions for "ZantShieldConfiguration" folder in "ZantShieldConfiguration" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 7F422A182F6AE47B00B7E458 /* ZantShieldConfiguration */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		7F422A082F6AE46200B7E458 /* ZantDeviceActivityMonitor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7F422A132F6AE46200B7E458 /* Exceptions for "ZantDeviceActivityMonitor" folder in "ZantDeviceActivityMonitor" target */,
+			);
+			path = ZantDeviceActivityMonitor;
+			sourceTree = "<group>";
+		};
+		7F422A1E2F6AE47B00B7E458 /* ZantShieldConfiguration */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7F422A3F2F6AE50000B7E458 /* Exceptions for "ZantShieldConfiguration" folder in "ZantShieldConfiguration" target */,
+			);
+			path = ZantShieldConfiguration;
+			sourceTree = "<group>";
+		};
 		7F8D16BE2F62CA26002FDAC7 /* Zant */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7F422A3D2F6AE50000B7E458 /* Exceptions for "Zant" folder in "ZantDeviceActivityMonitor" target */,
+				7F422A3E2F6AE50000B7E458 /* Exceptions for "Zant" folder in "ZantShieldConfiguration" target */,
+			);
 			path = Zant;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7F422A012F6AE46200B7E458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F422A072F6AE46200B7E458 /* DeviceActivity.framework in Frameworks */,
+				7F422A3C2F6AE50000B7E458 /* ManagedSettings.framework in Frameworks */,
+				7F422A3B2F6AE50000B7E458 /* FamilyControls.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F422A162F6AE47B00B7E458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F422A1B2F6AE47B00B7E458 /* ManagedSettings.framework in Frameworks */,
+				7F422A1D2F6AE47B00B7E458 /* ManagedSettingsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F8D16B92F62CA26002FDAC7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FEFC9FC2F62EFC80012E2C5 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F422A052F6AE46200B7E458 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F422A062F6AE46200B7E458 /* DeviceActivity.framework */,
+				7F422A3A2F6AE50000B7E458 /* FamilyControls.framework */,
+				7F422A1A2F6AE47B00B7E458 /* ManagedSettings.framework */,
+				7F422A1C2F6AE47B00B7E458 /* ManagedSettingsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7F8D16B32F62CA26002FDAC7 = {
 			isa = PBXGroup;
 			children = (
 				7F8D16BE2F62CA26002FDAC7 /* Zant */,
+				7F422A082F6AE46200B7E458 /* ZantDeviceActivityMonitor */,
+				7F422A1E2F6AE47B00B7E458 /* ZantShieldConfiguration */,
+				7F422A052F6AE46200B7E458 /* Frameworks */,
 				7F8D16BD2F62CA26002FDAC7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +179,8 @@
 			isa = PBXGroup;
 			children = (
 				7F8D16BC2F62CA26002FDAC7 /* Zant.app */,
+				7F422A042F6AE46200B7E458 /* ZantDeviceActivityMonitor.appex */,
+				7F422A192F6AE47B00B7E458 /* ZantShieldConfiguration.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,6 +188,50 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7F422A032F6AE46200B7E458 /* ZantDeviceActivityMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F422A142F6AE46200B7E458 /* Build configuration list for PBXNativeTarget "ZantDeviceActivityMonitor" */;
+			buildPhases = (
+				7F422A002F6AE46200B7E458 /* Sources */,
+				7F422A012F6AE46200B7E458 /* Frameworks */,
+				7F422A022F6AE46200B7E458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7F422A082F6AE46200B7E458 /* ZantDeviceActivityMonitor */,
+			);
+			name = ZantDeviceActivityMonitor;
+			packageProductDependencies = (
+			);
+			productName = ZantDeviceActivityMonitor;
+			productReference = 7F422A042F6AE46200B7E458 /* ZantDeviceActivityMonitor.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		7F422A182F6AE47B00B7E458 /* ZantShieldConfiguration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F422A272F6AE47B00B7E458 /* Build configuration list for PBXNativeTarget "ZantShieldConfiguration" */;
+			buildPhases = (
+				7F422A152F6AE47B00B7E458 /* Sources */,
+				7F422A162F6AE47B00B7E458 /* Frameworks */,
+				7F422A172F6AE47B00B7E458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7F422A1E2F6AE47B00B7E458 /* ZantShieldConfiguration */,
+			);
+			name = ZantShieldConfiguration;
+			packageProductDependencies = (
+			);
+			productName = ZantShieldConfiguration;
+			productReference = 7F422A192F6AE47B00B7E458 /* ZantShieldConfiguration.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		7F8D16BB2F62CA26002FDAC7 /* Zant */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F8D16CC2F62CA26002FDAC7 /* Build configuration list for PBXNativeTarget "Zant" */;
@@ -55,16 +239,20 @@
 				7F8D16B82F62CA26002FDAC7 /* Sources */,
 				7F8D16B92F62CA26002FDAC7 /* Frameworks */,
 				7F8D16BA2F62CA26002FDAC7 /* Resources */,
+				7F422A102F6AE46200B7E458 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7F422A0E2F6AE46200B7E458 /* PBXTargetDependency */,
+				7F422A242F6AE47B00B7E458 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				7F8D16BE2F62CA26002FDAC7 /* Zant */,
 			);
 			name = Zant;
 			packageProductDependencies = (
+				7FA1B0012F63000000000001 /* Lottie */,
 			);
 			productName = Zant;
 			productReference = 7F8D16BC2F62CA26002FDAC7 /* Zant.app */;
@@ -80,6 +268,12 @@
 				LastSwiftUpdateCheck = 2610;
 				LastUpgradeCheck = 2610;
 				TargetAttributes = {
+					7F422A032F6AE46200B7E458 = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+					7F422A182F6AE47B00B7E458 = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
 					7F8D16BB2F62CA26002FDAC7 = {
 						CreatedOnToolsVersion = 26.1.1;
 					};
@@ -94,17 +288,36 @@
 			);
 			mainGroup = 7F8D16B32F62CA26002FDAC7;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7FA1B0002F63000000000001 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 7F8D16BD2F62CA26002FDAC7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				7F8D16BB2F62CA26002FDAC7 /* Zant */,
+				7F422A032F6AE46200B7E458 /* ZantDeviceActivityMonitor */,
+				7F422A182F6AE47B00B7E458 /* ZantShieldConfiguration */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7F422A022F6AE46200B7E458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F422A172F6AE47B00B7E458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F8D16BA2F62CA26002FDAC7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,6 +328,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7F422A002F6AE46200B7E458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F422A152F6AE47B00B7E458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F8D16B82F62CA26002FDAC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,7 +351,146 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		7F422A0E2F6AE46200B7E458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F422A032F6AE46200B7E458 /* ZantDeviceActivityMonitor */;
+			targetProxy = 7F422A0D2F6AE46200B7E458 /* PBXContainerItemProxy */;
+		};
+		7F422A242F6AE47B00B7E458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F422A182F6AE47B00B7E458 /* ZantShieldConfiguration */;
+			targetProxy = 7F422A232F6AE47B00B7E458 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		7F422A112F6AE46200B7E458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ZantDeviceActivityMonitor/ZantDeviceActivityMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8N4RJ3Y3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZantDeviceActivityMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ZantDeviceActivityMonitor;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iosallapps.Zant.ZantDeviceActivityMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F422A122F6AE46200B7E458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ZantDeviceActivityMonitor/ZantDeviceActivityMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8N4RJ3Y3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZantDeviceActivityMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ZantDeviceActivityMonitor;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iosallapps.Zant.ZantDeviceActivityMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F422A282F6AE47B00B7E458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ZantShieldConfiguration/ZantShieldConfiguration.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8N4RJ3Y3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZantShieldConfiguration/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ZantShieldConfiguration;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iosallapps.Zant.ZantShieldConfiguration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F422A292F6AE47B00B7E458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ZantShieldConfiguration/ZantShieldConfiguration.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8N4RJ3Y3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZantShieldConfiguration/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ZantShieldConfiguration;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iosallapps.Zant.ZantShieldConfiguration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		7F8D16CA2F62CA26002FDAC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -160,7 +526,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 899Z54XT49;
+				DEVELOPMENT_TEAM = H8N4RJ3Y3C;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -222,7 +588,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 899Z54XT49;
+				DEVELOPMENT_TEAM = H8N4RJ3Y3C;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -246,9 +612,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Zant/Zant.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 899Z54XT49;
+				DEVELOPMENT_TEAM = H8N4RJ3Y3C;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -264,24 +631,22 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 26.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = abcdefg.Zant;
+				PRODUCT_BUNDLE_IDENTIFIER = iosallapps.Zant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
-				SDKROOT = auto;
+				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 26.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -290,9 +655,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Zant/Zant.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 899Z54XT49;
+				DEVELOPMENT_TEAM = H8N4RJ3Y3C;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -308,30 +674,46 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 26.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = abcdefg.Zant;
+				PRODUCT_BUNDLE_IDENTIFIER = iosallapps.Zant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
-				SDKROOT = auto;
+				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 26.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7F422A142F6AE46200B7E458 /* Build configuration list for PBXNativeTarget "ZantDeviceActivityMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F422A112F6AE46200B7E458 /* Debug */,
+				7F422A122F6AE46200B7E458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F422A272F6AE47B00B7E458 /* Build configuration list for PBXNativeTarget "ZantShieldConfiguration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F422A282F6AE47B00B7E458 /* Debug */,
+				7F422A292F6AE47B00B7E458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7F8D16B72F62CA26002FDAC7 /* Build configuration list for PBXProject "Zant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -351,6 +733,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7FA1B0002F63000000000001 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7FA1B0012F63000000000001 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA1B0002F63000000000001 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7F8D16B42F62CA26002FDAC7 /* Project object */;
 }
